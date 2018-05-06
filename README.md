@@ -5,7 +5,7 @@
 #####功能简单，更方便
 
 ![screenshot](https://github.com/bywei/free-picture-links/raw/master/Screenshots/plugin1.png)
-![screenshot](https://github.com/bywei/free-picture-links/raw/master/Screenshots/plugin2.jpg)
+![screenshot](https://github.com/bywei/free-picture-links/raw/master/Screenshots/plugin2.png)
 
 ###介绍
 ---
