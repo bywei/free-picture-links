@@ -1,8 +1,8 @@
 ## 百味免费图库插件
 ---
 * 该插件让你直接在编辑器页面上传图片到免费服务器
-* 上传完成后自动在编辑器中添加图片，不需要设置全站CDN
-* 功能简单，更方便
+* 上传完成后自动在编辑器中添加图片
+* 功能简单方便
 
 ![screenshot](https://github.com/bywei/free-picture-links/raw/master/Screenshots/plugin1.png)
 ![screenshot](https://github.com/bywei/free-picture-links/raw/master/Screenshots/plugin2.png)
