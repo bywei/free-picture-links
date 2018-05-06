@@ -13,7 +13,7 @@
 
 ###安装
 ---
-####1. 上传 `free-tuchaung`目录 到 `/wp-content/plugins/` 目录
+####1. 上传 `free-picture-links`目录 到 `/wp-content/plugins/` 目录
 ####2. 在后台插件菜单激活该插件
 ####3. 在后台设置设置
 

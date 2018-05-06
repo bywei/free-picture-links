@@ -21,12 +21,12 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 详细介绍： http://www.ByWei.Cn/
 
 
-源码：https://github.com/bywei/free-tuchaung
+源码：https://github.com/bywei/free-picture-links
 
 
 == Installation ==
 
-1. 上传 `free-tuchaung`目录 到 `/wp-content/plugins/` 目录
+1. 上传 `free-picture-links`目录 到 `/wp-content/plugins/` 目录
 2. 在后台插件菜单激活该插件
 3. 在后台设置设置accesskey,screctkey,bucket,免费绑定域名
 

@@ -2,7 +2,7 @@
 error_reporting(5);
 /*
 Plugin Name: 百味免费图库
-Plugin URI:  http://www.ByWei.Cn/works/free-tuchaung/
+Plugin URI:  http://www.ByWei.Cn/
 Description:  免费云图床插件：在编辑器页面上传图片至免费服务器
 Author: 百味博客
 Author URI: http://www.ByWei.Cn
@@ -14,7 +14,7 @@ define('PLUGIN_DIR', plugin_dir_path(__FILE__));
 
 //设置菜单
 function free_picture_links_menu(){
-    add_options_page('free', '百味免费图库', 'manage_options', 'free-tuchaung', 'free_picture_links_options');
+    add_options_page('free', '百味免费图库', 'manage_options', 'free-picture-links', 'free_picture_links_options');
 }
 add_action('admin_menu', 'free_picture_links_menu');
 
@@ -36,12 +36,12 @@ add_action('admin_init', 'register_free_settings');
 function register_free_settings() {
 	register_setting('free_options', 'free_options');
 	add_settings_section('free_defaults', '默认设置', 'defaults_output', 'free-settings');
-	add_settings_field('free-tuchaung-host', '免费绑定域名', 'host_output', 'free-settings','free_defaults');
-    add_settings_field('free-tuchaung-hostprefix', '前缀', 'prefix_output', 'free-settings','free_defaults');
-	add_settings_field('free-tuchaung-hostbucket', 'bucket', 'bucket_output', 'free-settings','free_defaults');
-	add_settings_field('free-tuchaung-hostimgurl', '图片链接形式', 'imgurl_output', 'free-settings','free_defaults');
-	add_settings_field('free-tuchaung-hostaccesskey', 'AccessKey', 'accesskey_output', 'free-settings','free_defaults');
-	add_settings_field('free-tuchaung-hostsecretkey', 'SecretKey', 'secretkey_output', 'free-settings','free_defaults');
+	add_settings_field('free-picture-links-host', '免费绑定域名', 'host_output', 'free-settings','free_defaults');
+    add_settings_field('free-picture-links-hostprefix', '前缀', 'prefix_output', 'free-settings','free_defaults');
+	add_settings_field('free-picture-links-hostbucket', 'bucket', 'bucket_output', 'free-settings','free_defaults');
+	add_settings_field('free-picture-links-hostimgurl', '图片链接形式', 'imgurl_output', 'free-settings','free_defaults');
+	add_settings_field('free-picture-links-hostaccesskey', 'AccessKey', 'accesskey_output', 'free-settings','free_defaults');
+	add_settings_field('free-picture-links-hostsecretkey', 'SecretKey', 'secretkey_output', 'free-settings','free_defaults');
 }
 
 function host_output() {
