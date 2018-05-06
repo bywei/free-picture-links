@@ -1,0 +1,26 @@
+{
+    "name": "free/php-sdk",
+    "type": "library",
+    "description": "free Resource (Cloud) Storage SDK for PHP",
+    "keywords": ["free", "storage", "sdk", "cloud"],
+    "homepage": "http://developer.qiniu.com/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "free",
+            "email": "sdk@qiniu.com",
+            "homepage": "http://www.qiniu.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "squizlabs/php_codesniffer": "~2.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {"free\\": "src/free"},
+        "files": ["src/free/functions.php"]
+    }
+}

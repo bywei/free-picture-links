@@ -1,0 +1,23 @@
+#free_picture_links_post{
+	width:auto;
+	height:100px;
+	border:3px dashed silver;
+	line-height:100px;
+	text-align:center;
+	font-size:20px;
+	color:#d3d3d3;
+	cursor:pointer;
+}
+/*#free_picture_links_post *{
+	cursor:pointer;
+}*/
+#pickfiles{
+	position: absolute;
+	display: block;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+}
+#Filedata{display:none;}
+#dialogFrame{display:none;}
